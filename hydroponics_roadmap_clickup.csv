@@ -1,0 +1,54 @@
+Folder,List,Task,Status
+Planning & Requirements,Planning Tasks,Define monitored parameters,Complete
+Planning & Requirements,Planning Tasks,Select sensors and relays,Complete
+Planning & Requirements,Planning Tasks,Design system wiring and layout,Complete
+Planning & Requirements,Planning Tasks,Assign I/O pins for all components,Complete
+Planning & Requirements,Planning Tasks,Create complete Bill of Materials (BOM),Complete
+Hardware Assembly,Assembly Tasks,Mount sensors on breadboard or permanent case,Complete
+Hardware Assembly,Assembly Tasks,Wire DHT11 sensor,Complete
+Hardware Assembly,Assembly Tasks,Wire DS18B20 or analog water temp sensor,Complete
+Hardware Assembly,Assembly Tasks,Wire water level sensor,Complete
+Hardware Assembly,Assembly Tasks,Wire turbidity sensor,Complete
+Hardware Assembly,Assembly Tasks,Wire pH sensor,Complete
+Hardware Assembly,Assembly Tasks,Connect and test all relays,Complete
+Hardware Assembly,Assembly Tasks,Perform power-up test,Pending
+Hardware Assembly,Assembly Tasks,Validate sensor outputs via Serial Monitor,Pending
+Hardware Assembly,Assembly Tasks,Manually test each relay output,Pending
+Firmware Development,Core Arduino Code,Initialize WiFi and onboard web server,Complete
+Firmware Development,Core Arduino Code,Implement sensor read loop,Pending
+Firmware Development,Core Arduino Code,Add logic to compare readings against thresholds,Pending
+Firmware Development,Core Arduino Code,Control relays based on sensor states,Pending
+Firmware Development,Core Arduino Code,Add EEPROM storage for threshold values,Pending
+Firmware Development,Core Arduino Code,Add EEPROM restore and reset logic,Pending
+Firmware Development,Core Arduino Code,Implement AJAX or endpoint for real-time data,Pending
+Firmware Development,Core Arduino Code,Add manual override control from web interface,Pending
+Web Interface Design,UI / UX Tasks,Build HTML/CSS layout for dashboard,Complete
+Web Interface Design,UI / UX Tasks,Display live sensor data in interface,Pending
+Web Interface Design,UI / UX Tasks,Show relay status indicators,Pending
+Web Interface Design,UI / UX Tasks,Add threshold input fields,Pending
+Web Interface Design,UI / UX Tasks,Add save button for new threshold settings,Pending
+Web Interface Design,UI / UX Tasks,Create manual pump control buttons,Pending
+Web Interface Design,UI / UX Tasks,Optimize for mobile viewing,Pending
+System Testing,QA Tasks,Simulate low water level and confirm relay triggers,Pending
+System Testing,QA Tasks,Simulate pH imbalance and validate correction logic,Pending
+System Testing,QA Tasks,Simulate nutrient threshold and trigger nutrient pump,Pending
+System Testing,QA Tasks,Confirm EEPROM restore works after power loss,Pending
+System Testing,QA Tasks,Validate timing to avoid relay overlap,Pending
+System Testing,QA Tasks,Run full system for 24–48 hours under load,Pending
+Enclosure & Deployment,Deployment Tasks,Design or purchase a waterproof enclosure,Pending
+Enclosure & Deployment,Deployment Tasks,Secure and mount electronics in case,Pending
+Enclosure & Deployment,Deployment Tasks,Route and waterproof sensor cables,Pending
+Enclosure & Deployment,Deployment Tasks,Attach and label probes in hydroponic system,Pending
+Enclosure & Deployment,Deployment Tasks,Final safety inspection and waterproofing,Pending
+Documentation & Community,Docs & Support,Create wiring diagram,Pending
+Documentation & Community,Docs & Support,Write sensor calibration guide,Pending
+Documentation & Community,Docs & Support,Document firmware update process,Pending
+Documentation & Community,Docs & Support,"Write and publish README.md, ROADMAP.md",Pending
+Documentation & Community,Docs & Support,Optional: GitHub Pages live demo,Pending
+Documentation & Community,Docs & Support,Optional: Blog/tutorial for replication,Pending
+Future Enhancements,Wishlist / Stretch Goals,Charting & historical logging,Planned
+Future Enhancements,Wishlist / Stretch Goals,OTA firmware updates over WiFi,Planned
+Future Enhancements,Wishlist / Stretch Goals,Email/SMS notifications for critical readings,Planned
+Future Enhancements,Wishlist / Stretch Goals,Password protection for settings page,Planned
+Future Enhancements,Wishlist / Stretch Goals,Alexa or Google Assistant integration,Planned
+Future Enhancements,Wishlist / Stretch Goals,Secure remote access (ngrok/VPN),Planned
